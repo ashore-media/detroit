@@ -26,7 +26,7 @@ baseurl: ""
 twitter_handle: '@ashoredetroit'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: ashore-detroit
 
 # social icons and sharing options
 social:
