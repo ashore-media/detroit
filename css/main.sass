@@ -40,12 +40,11 @@ body
   font-feature-settings: "liga", "dlig"
 
 .logo-readium
-  position: fixed
+  position: relative
   left: 10px
   top: 10px
-  width: $rs*3
+  width: $rs*9
   height: $rs*3
-  background-color: #000
   overflow: hidden
   z-index: 99
   .logo
@@ -53,7 +52,7 @@ body
     position: absolute
     top: $rs/2
     left: $rs/2
-    width: $rs*2
+    width: $rs*8
     height: $rs*2
     background-size: cover
     background-repeat: no-repeat
@@ -127,6 +126,9 @@ body
       color: #999
       &:hover
         color: #333
+
+.copyright
+  margin-top: 20px
 
 .content
   width: 100%
