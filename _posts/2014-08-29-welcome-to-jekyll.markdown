@@ -24,14 +24,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 {% highlight js %}
 
-<footer class="site-footer">
- <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Blog feed</span></a>
-  <div class="inner">a
-   <section class="copyright">
-       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-   </section>
-  </div>
-</footer>
+{% include footer.html %}
+
 {% endhighlight %}
 
 
